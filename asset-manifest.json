@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ScreenReminder/static/css/main.073c9b0a.css",
+    "main.js": "/ScreenReminder/static/js/main.03a06a43.js",
+    "static/js/787.62e03d8e.chunk.js": "/ScreenReminder/static/js/787.62e03d8e.chunk.js",
+    "static/media/test.mp3": "/ScreenReminder/static/media/test.65e690e8382e1c9a9e5d.mp3",
+    "index.html": "/ScreenReminder/index.html",
+    "main.073c9b0a.css.map": "/ScreenReminder/static/css/main.073c9b0a.css.map",
+    "main.03a06a43.js.map": "/ScreenReminder/static/js/main.03a06a43.js.map",
+    "787.62e03d8e.chunk.js.map": "/ScreenReminder/static/js/787.62e03d8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.03a06a43.js"
+  ]
+}
