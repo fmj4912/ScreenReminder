@@ -1,31 +1,5 @@
-name: NodeJS with Webpack
-
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
+- name: GitHub Pages
+  uses: crazy-max/ghaction-github-pages@v3.1.0
+  with:
+    build_dir: ./build
     
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Build
-      run: |
-        npm install
-    deployment:
-    environment: production
-    steps:
-    - name: deploy
