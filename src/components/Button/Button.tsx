@@ -40,7 +40,6 @@ const ButtonComponent: FC<ButtonProps> = () => {
 		}
 	}
 
-
 	const [enabled, setEnabled] = useState<boolean>(false);
 	const [intervalKeeper, setIntervalKeeper] = useState<NodeJS.Timer>(null);
 	const timeInSeconds= useRef<number>(0);
